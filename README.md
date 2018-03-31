@@ -1,14 +1,18 @@
-# PPMessage 文档
+# PPMESSAGE 使用手册
 
-这本书包含了使用、部署和开发PPMessage所需要的所有文档。
+本手册包含了所有使用、开发 PPMESSAGE 需要的文档。
 
-### ppmessage.com
+### [https://ppmessage.cn](https://ppmessage.cn)
 
-PPMessage 是一个在线客服服务平台[https://ppmessage.com](https://ppmessage.com)，包含客服端软件、客户端软件、客服管理系统。
+PPMESSAGE 是一个在线客服平台。 提供在线客服，微信客服和智能消息交互等功能。
 
-PPMessage 是一个开源项目，源代码托管在[Github](https://github.com/PPMESSAGE/ppmessage.git)上。
+其中基本的网页在线客服功能免费试用。
+
+其主要软件模块包含客服端软件、访客端软件、访客端 SDK。
 
 
 ### 帮助和支持
 
-如有任何问题，请访问[PPMessage官网](https://ppmessage.com)向我们提问，或者在[github.com/PPMESSAGE](https://github.com/PPMESSAGE/ppmessage.git)提交问题。
+如有任何问题，在 [PPMESSAGE 官网](https://ppmessage.cn) 通过在线客服向我们提问。
+
+如果发现本手册的任何问题，可以在[github](https://github.com/PPMESSAGE/chinese-manual.git)上提交问题。

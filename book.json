@@ -1,5 +1,52 @@
 {
-    "gitbook": "2.x.x",
-    "title": "PPMessage Handbook",
-    "description": "Documentation of PPMessage"
+    "title": "PPMESSAGE 使用与开发手册",
+    "description": " PPMESSAGE 使用与开发手册 ",
+    "author": "Guijin Ding",
+    "root": ".",
+    "language": "zh-hans",
+
+    "links" : {
+        "sidebar" : {
+            "主页" : "https://ppmessage.cn"
+        }
+    },
+    
+    "plugins":["-sharing", "-lunr", "-search", "-highlight", "-livereload",
+               "search-plus", "prism", "prism-themes", "advanced-emoji",
+               "include-codeblock", "ace", "emphasize", "katex", "splitter",
+               "mermaid-gb3", "tbfed-pagefooter", "sectionx", "local-video",
+               "github-edit", "graph", "chart", "favicon"],
+
+    "pluginsConfig": {
+        "github-edit": {
+            "repo": "PPMESSAGE/chinese-manual",
+            "branch": "master"
+        },
+        
+        "theme-default": {
+            "showLevel": true
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © PPMESSAGE 2018",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        }        
+    }
 }
+

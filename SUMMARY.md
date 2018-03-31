@@ -1,8 +1,13 @@
 # Summary
 
 * [简介](README.md)
-* [初级篇](part1/README.md)
+
+* [体验篇](part1/README.md)
+   * [与客服对话](part1/chat-with-ppmessage.md)
+
+* [使用篇](part1/README.md)
    * [和 PPMessage 对话](part1/chat-with-ppmessage.md)
+
 * [进阶篇](part2/README.md)
    * [PPConsole](part2/ppconsole/README.md)
        * [注册用户](part2/ppconsole/sign-up.md)
@@ -20,7 +25,7 @@
        * [部署](part2/ppcom/deploy.md)
        * [对话](part2/ppcom/chat.md)
        * [第三方客户端](part2/ppcom/third-party-client.md)
-* [开发](part3/README.md)
+* [开发篇](part3/README.md)
    * [PPMessage](part3/ppmessage/README.md)
        * [配置开发环境](part3/ppmessage/set-up/README.md)
            * [Mac OS X](part3/ppmessage/set-up/mac.md)
