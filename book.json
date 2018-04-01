@@ -15,9 +15,14 @@
                "search-plus", "prism", "prism-themes", "advanced-emoji",
                "include-codeblock", "ace", "emphasize", "katex", "splitter",
                "mermaid-gb3", "tbfed-pagefooter", "sectionx", "local-video",
-               "github-edit", "graph", "chart", "favicon"],
+               "github-edit", "graph", "chart", "favicon", "ppmessage"],
 
     "pluginsConfig": {
+        "ppmessage": {
+            "app_uuid": "a600998e-efff-11e5-9d9f-02287b8c0ebf",
+            "ppmessage_url": "https://ppmessage.cn/ppcom/assets/pp-library.min.js"
+        },
+        
         "github-edit": {
             "repo": "PPMESSAGE/chinese-manual",
             "branch": "master"
@@ -26,11 +31,13 @@
         "theme-default": {
             "showLevel": true
         },
+
         "prism": {
             "css": [
                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
             ]
         },
+
         "include-codeblock": {
             "template": "ace",
             "unindent": true,
