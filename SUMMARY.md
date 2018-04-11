@@ -6,6 +6,7 @@
    * [与客服对话](part1/chat-with-ppmessage.md)
 
 * [使用篇](part1/README.md)
+   * [个人设置](part1/chat-with-ppmessage.md)
    * [注册团队](part1/chat-with-ppmessage.md)
    * [选择产品](part1/chat-with-ppmessage.md)
    * [增加座席](part1/chat-with-ppmessage.md)
