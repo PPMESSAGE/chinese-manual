@@ -5,11 +5,11 @@ require([ 'gitbook' ], function (gitbook) {
 		 * @type {Object}
 		 */
 		const defaultOption = {
-	        'repo': 'aleen42/PersonalWiki',
-	        'branch': 'master'
-	    };
+			'repo': 'aleen42/PersonalWiki',
+			'branch': 'master'
+		};
 
-	    /** if users have its option, and then combine it with default options */
+		/** if users have its option, and then combine it with default options */
 		if (config['github-edit']) {
 		// @deprecated
 		// if (this.options.pluginsConfig['page-treeview']) {
@@ -26,14 +26,20 @@ require([ 'gitbook' ], function (gitbook) {
 		}
 
 		const configRoot = config['root'];
-		const editUrl = 'https://github.com/' + defaultOption.repo + '/edit/' + defaultOption.branch + (configRoot ? '/' + configRoot : '') + '/' + gitbook.state.filepath;
 
 		gitbook.toolbar.createButton({
 			icon: 'fa fa-pencil-square-o ',
 			label: 'Edit on GitHub',
 			position: 'right',
-			onClick: function() {
-				window.open(editUrl);
+			onClick: function () {
+				window.open('https://github.com/'
+					+ defaultOption.repo
+					+ '/edit/'
+					+ defaultOption.branch
+					+ (configRoot ? '/' + configRoot : '')
+					+ '/'
+					+ gitbook.state.filepath
+				);
 			}
 		});
 	};
