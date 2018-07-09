@@ -10,7 +10,7 @@
    * [注册团队](part1/register-team.md)
    * [选择产品](part1/Choose-goods.md)
    * [增加座席](part1/Increase-the-seating.md)
-   * [测试效果](part1/chat-with-ppmessage.md)
+   * [测试效果](part1/Test-results.md)
    * [集成代码](part1/chat-with-ppmessage.md)
    * [定制流程](part1/chat-with-ppmessage.md)
    * [访客细分](part1/chat-with-ppmessage.md)
