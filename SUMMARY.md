@@ -5,11 +5,11 @@
 * [体验篇](part1/README.md)
    * [与客服对话](part1/chat-with-ppmessage.md)
 
-* [使用篇](part1/README.md)
+* [使用篇](part1/EMPLOY.md)
    * [个人设置](part1/personal-settings.md)
    * [注册团队](part1/register-team.md)
    * [选择产品](part1/Choose-goods.md)
-   * [增加座席](part1/chat-with-ppmessage.md)
+   * [增加座席](part1/Increase-the-seating.md)
    * [测试效果](part1/chat-with-ppmessage.md)
    * [集成代码](part1/chat-with-ppmessage.md)
    * [定制流程](part1/chat-with-ppmessage.md)
