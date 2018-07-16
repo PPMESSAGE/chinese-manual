@@ -1,2 +1,2 @@
-# PPConsole
+# 座席端
 
