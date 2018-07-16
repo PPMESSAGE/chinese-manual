@@ -20,22 +20,13 @@
 事件的定义通过管理员在管理后台定义，每个事件在访客浏览网页的时候，由开发者控制产生：
 
 ```
-$(document).on("click", function(event) {
-
-if (!window._ppmatc) {
-window._ppmatc = [];
-}
-
 window._ppmatc.push({
-track_event: {
-event_name: "click",
-event_uuid: "xxxx-xxxx-xxxx-xxxxx",
-event_data: {
-x: event.pageX,
-y: event.pageY,
-page_url: window.location.href
-}
-}
+  track_event: {
+    event_name: "click",
+    event_uuid: "a50ed4ee-6a20-11e8-b4ec-00163e0c79f6",
+    event_data: {},
+    event_timestamp: Math.round(new Date().getTime()/1000)    
+  }
 });
 
 });
@@ -44,10 +35,9 @@ page_url: window.location.href
 
 其中 window._ppmatc 这个队列会被 PPMESSAGE 定期检查，如果发现有事件数据对象就会上报给后台系统。
 
-上报的数据结构必须如上述代码所描述，一个 Javascript 对象，并且含有 track_event 成员，在 track_event 里面要指定 event_name, event_uuid, event_data。event_uuid 是从管理后台中获取，event_data 是任意对象或者字符串。
+上报的数据结构必须如上述代码所描述，一个 Javascript 对象，并且含有 track_event 成员，在 track_event 里面要指定 event_name, event_uuid, event_data。event_uuid, 是从管理后台中获取，event_data 是任意对象或者字符串,event_timestamp 是事件生成时间戳，这里为系统生成。
 
-添加自定义事件。
-客户在访客字段界面中直接添加即可。
+添加自定义事件字段，客户在访客字段界面中直接添加即可。
 
 定制字段：
 PPMESSAGE 允许您根据特定于您的业务的标准创建定制字段跟踪有关客户的自定义数据属性。 您可以使用此数据来过滤和创建客户细分，并发送有针对性的消息和广告。例如您可以创建一个名叫“行业类别”的定制字段来细分来自不同行业的客户群体。目前支持的定制字段类型有：
