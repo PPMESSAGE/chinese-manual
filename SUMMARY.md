@@ -37,10 +37,10 @@
        * [移动消息流程](part2/ppkefu/sign-in.md)
        * [微信消息流程](part2/ppkefu/conversations.md)
        * [邮件消息流程](part2/ppkefu/contacts.md)
-       * [短信消息流程](part2/ppkefu/contacts.md)
-       * [事件消息流程](part2/ppkefu/contacts.md)
-       * [自动定时流程](part2/ppkefu/contacts.md)
-       * [工单流程](part2/ppkefu/contacts.md)
+       * [短信消息流程](part2/ppkefu/contacts1.md)
+       * [事件消息流程](part2/ppkefu/contacts2.md)
+       * [自动定时流程](part2/ppkefu/contacts3.md)
+       * [工单流程](part2/ppkefu/contacts4.md)
 
    
 * [开发篇](part3/README.md)
