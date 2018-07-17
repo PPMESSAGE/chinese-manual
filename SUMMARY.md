@@ -52,7 +52,7 @@
        * [Javascript](part3/ppmessage/set-up/README.md)
        * [Rest](part3/ppmessage/api/README.md)
        * [ppauth](part3/ppmessage/ppauth/README.md)
-   * [座席端](part3/ppconsole/README.md)
+       * [座席端](part3/ppconsole/README.md)
        * [Javascript](part3/ppconsole/set-up.md)
        * [Rest](part3/ppconsole/set-up.md)
        * [iOS](part3/ppconsole/set-up.md)
