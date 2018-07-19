@@ -19,6 +19,8 @@ PPMESSAGE 可以对接微信公众号，通过 PPMESSAGE 可以收到客户通�
 
 流程图如下：
 
+![](https://upload-images.jianshu.io/upload_images/12406336-71f3dcfd4558cd5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 收到客户微信消息流程
 
 如果您的系统中没有配置这个流程，请和我们的在线客服人员联系，我们会帮助您配置好。

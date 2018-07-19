@@ -7,7 +7,7 @@ PPMESSAGE 的座席一般都需要登录 PPMESSAGE 的后台系统才能使用�
 
 只需要前端开发即可集成 PPMESSAGE 的座席插件，将 PPMESSAGE 的座席功能集成到企业的自身的业务系统中。具体过程是这样的：
 
-登录 PPMESSAGE 后台管理系统，设置 - 网页座席插件、网页座席链接
+登录 PPMESSAGE  通过[设置-网页座席插件]、[设置-网页座席链接]、[设置-网页聊天插件]。
 
 网页座席插件是插件代码，将这行代码复制到企业应用系统的前端页面中即可，企业应用系统马上具备 PPMESSAGE 的客服功能，座席无需再打开 PPMESSAGE 的后台系统去使用座席功能了。
 
@@ -23,4 +23,11 @@ PPMESSAGE 的座席一般都需要登录 PPMESSAGE 的后台系统才能使用�
 
 ![image](http://upload-images.jianshu.io/upload_images/12406336-6c4ff66a5e52c576?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-文档搜索 PPMESSAGE 网页聊天高级集成方法了解更多。
+网页聊天插件是集成代码，将这行代码复制到企业的前端页面中，企业应用系统就会具有在线客服功能。但是这中集成，座席人员需要打开 PPMESSAGE 的后台系统才能使用座席功能。网页聊天插件中可以更改聊天按钮的颜色，但是这个按钮的颜色在加载聊天组建流程中也能更改，而且流程中的优先级更高。所以当二者颜色冲突时，以流程中的为准。
+
+效果如下：
+
+![](https://upload-images.jianshu.io/upload_images/12406336-47c0f0715d045b41.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+当然您还可以在教程中搜索高级集成方式获得更多功能的集成方法。
