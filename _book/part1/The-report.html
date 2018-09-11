@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>电话集成 · PPMESSAGE 使用与开发手册</title>
+        <title>报表 · PPMESSAGE 使用与开发手册</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -104,10 +104,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Apple-push-integration.html" />
+    <link rel="next" href="../part2/" />
     
     
-    <link rel="prev" href="Message-integration.html" />
+    <link rel="prev" href="DASHBOAD.html" />
     
 
     
@@ -410,7 +410,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.12" data-path="Telephone-integration.html">
+        <li class="chapter " data-level="1.3.12" data-path="Telephone-integration.html">
             
                 <a href="Telephone-integration.html">
             
@@ -500,7 +500,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.18" data-path="The-report.html">
+        <li class="chapter active" data-level="1.3.18" data-path="The-report.html">
             
                 <a href="The-report.html">
             
@@ -1004,7 +1004,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >电话集成</a>
+        <a href=".." >报表</a>
     </h1>
 </div>
 
@@ -1019,23 +1019,41 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7535;&#x8BDD;&#x96C6;&#x6210;">&#x7535;&#x8BDD;&#x96C6;&#x6210;</h1>
-<p><a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x96C6;&#x6210;&#x7535;&#x8BDD;&#x7684;&#x547C;&#x5165;&#x547C;&#x51FA;&#x529F;&#x80FD;&#xFF0C;&#x8BBF;&#x5BA2;&#x7684;&#x7535;&#x8BDD;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x7684;&#x6D88;&#x606F;&#x6D41;&#x7A0B;&#x7CFB;&#x7EDF;&#x8F6C;&#x53D1;&#x81F3;&#x5EA7;&#x5E2D;&#x3002;&#x5EA7;&#x5E2D;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;&#x5BF9;&#x8BDD;&#x754C;&#x9762;&#x7ED9;&#x5BA2;&#x6237;&#x56DE;&#x547C;&#x672C;&#x6587;&#x8BB2;&#x8FF0;&#x7535;&#x8BDD;&#x547C;&#x5165;&#x3002;</p>
-<p>&#x5728; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x4E2D;&#x5B9E;&#x73B0;&#x7535;&#x8BDD;&#x547C;&#x5165;&#x547C;&#x51FA;&#x901A;&#x8FC7;&#x96C6;&#x6210;&#x7B2C;&#x4E09;&#x65B9;&#x670D;&#x52A1;&#x5B8C;&#x6210;&#xFF0C;<a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x672C;&#x8EAB;&#x5E76;&#x4E0D;&#x6536;&#x53D6;&#x4EFB;&#x4F55;&#x7535;&#x8BDD;&#x76F8;&#x5173;&#x7684;&#x8D39;&#x7528;&#x3002;&#x53EA;&#x662F;&#x5C06;&#x6D88;&#x606F;&#x96C6;&#x6210;&#x5230; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x7684;&#x6574;&#x4E2A;&#x6D88;&#x606F;&#x7CFB;&#x7EDF;&#x4E4B;&#x4E2D;&#x3002;</p>
-<p>&#x56DE;&#x5230;&#x7535;&#x8BDD;&#x547C;&#x5165;&#x547C;&#x51FA;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x4E0A;&#xFF0C;&#x76EE;&#x524D; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x96C6;&#x6210;&#x4E86; Twilio &#x548C;&#x963F;&#x91CC;&#x4E91;&#x7684;&#x670D;&#x52A1;&#x3002;</p>
-<p>&#x8FD9;&#x91CC;&#x7565;&#x53BB; Twilio &#x6216;&#x963F;&#x91CC;&#x4E91;&#x77ED;&#x4FE1;&#x7684;&#x670D;&#x52A1;&#x914D;&#x7F6E;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x9700;&#x8981;&#x77E5;&#x9053;&#x7684;&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#x8054;&#x7CFB;&#x6211;&#x4EEC;&#x3002;&#x8FD9;&#x91CC;&#x4EE5; Twilio &#x4E3A;&#x4F8B;&#xFF0C;&#x8BB2;&#x89E3;&#x4E0B;&#x914D;&#x7F6E;&#x670D;&#x52A1;&#x3002;</p>
-<p>&#x62FF;&#x5230; Twilio &#x7684;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#x540E;&#xFF0C;&#x5F00;&#x59CB; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x7684;&#x540E;&#x53F0;&#x8BBE;&#x7F6E;&#x3002;</p>
-<p>&#x8BBE;&#x7F6E; -&#x56E2;&#x961F;&#x8BBE;&#x7F6E;- &#x5BA2;&#x670D;&#x7535;&#x8BDD;&#xFF1A;</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/12406336-79dab10b21fa2fd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>&#x56FE;&#x4E2D;&#x90A3;&#x4E9B;&#x4FE1;&#x606F;&#x9ED1;&#x8272;&#x90E8;&#x5206;&#x662F;&#x4ECE;&#x7F51;&#x7AD9;&#x540E;&#x53F0;&#x83B7;&#x53D6;&#x7684;&#x3002;
-&#x51FA;&#x5C40;&#x5B57;&#x51A0;&#x662F;&#x4E3A;&#x4E86;&#x5EA7;&#x5E2D;&#x5411;&#x56E2;&#x961F;&#x5916;&#x62E8;&#x6253;&#x7535;&#x8BDD;&#x65F6;&#x52A0;&#x7684;&#x524D;&#x5760;&#xFF0C;&#x7531;&#x60A8;&#x81EA;&#x884C;&#x8BBE;&#x7F6E;&#x3002;</p>
-<p>&#x8FD8;&#x6709;&#x6700;&#x540E;&#x4E00;&#x6B65;&#xFF0C;&#x5C31;&#x662F;&#x6D41;&#x7A0B;&#xFF0C;<a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x672C;&#x8EAB;&#x662F;&#x4E00;&#x4E2A;&#x6D41;&#x7A0B;&#x9A71;&#x52A8;&#x7684;&#x7CFB;&#x7EDF;&#xFF0C;&#x5F53;&#x5BA2;&#x6237;&#x7535;&#x8BDD;&#x6D88;&#x606F;&#x6765;&#x4E34;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x89E6;&#x53D1;&#x4E86; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x7684;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#xFF0C;&#x8FD9;&#x4E2A;&#x4E8B;&#x4EF6;&#x5BFC;&#x81F4;&#x4E00;&#x4E2A;&#x6D41;&#x7A0B;&#x7684;&#x6267;&#x884C;&#xFF0C;&#x800C;&#x8FD9;&#x4E2A;&#x6D41;&#x7A0B;&#x662F;&#x53EF;&#x4EE5;&#x5B9A;&#x5236;&#x7684;&#xFF0C;&#x6839;&#x636E;&#x60A8;&#x7684;&#x5177;&#x4F53;&#x8981;&#x6C42;&#x53EF;&#x4EE5;&#x5728;&#x6D88;&#x606F;&#x6765;&#x4E34;&#x540E;&#x51B3;&#x5B9A;&#x6267;&#x884C;&#x4EC0;&#x4E48;&#x64CD;&#x4F5C;&#x3002;</p>
-<p>&#x4E0B;&#x9762;&#x662F; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x81EA;&#x5DF1;&#x7684;&#x6D41;&#x7A0B;&#x914D;&#x7F6E;&#xFF0C;&#x4EC5;&#x4F9B;&#x53C2;&#x8003;&#x3002;</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/12406336-cec92fc54e13091a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>&#x5982;&#x679C;&#x89C9;&#x5F97;&#x6D41;&#x7A0B;&#x590D;&#x6742;&#x53EF;&#x4EE5;&#x54A8;&#x8BE2;&#x5BA2;&#x670D;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x5E2E;&#x60A8;&#x914D;&#x7F6E;&#x597D;&#x3002;</p>
-<p>&#x8FD9;&#x6837;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x7535;&#x8BDD;&#x547C;&#x5165;&#x5C31;&#x914D;&#x7F6E;&#x597D;&#x4E86;&#x3002;&#x60A8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7535;&#x8BDD;&#x547C;&#x5165;&#x529F;&#x80FD;&#x4E86;&#x3002;</p>
+                                <h1 id="&#x62A5;&#x8868;">&#x62A5;&#x8868;</h1>
+<p><a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x53EF;&#x4EE5;&#x4E3A;&#x5BA2;&#x6237;&#x63D0;&#x4F9B;</p>
+<ul>
+<li>&#x8BBF;&#x5BA2;&#x62A5;&#x8868;</li>
+<li>&#x4F1A;&#x8BDD;&#x62A5;&#x8868;</li>
+<li>&#x5EA7;&#x5E2D;&#x62A5;&#x8868;</li>
+<li>&#x7535;&#x8BDD;&#x62A5;&#x8868;
+&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#x5728;&#x4E86;&#x89E3;&#x5EA7;&#x5E2D;&#x5DE5;&#x4F5C;&#x60C5;&#x51B5;&#xFF0C;&#x8BBF;&#x5BA2;&#x6D41;&#x52A8;&#x4FE1;&#x606F;&#xFF0C;&#x4F18;&#x5316;&#x5EA7;&#x5E2D;&#x5DE5;&#x4F5C;&#x90FD;&#x6709;&#x5F88;&#x591A;&#x5E2E;&#x52A9; &#x3002;</li>
+</ul>
+<p>&#x8BBF;&#x5BA2;&#x62A5;&#x8868;&#x529F;&#x80FD;&#xFF1A;
+&#x4F7F;&#x7528;&#x573A;&#x666F;</p>
+<ul>
+<li>&#x4E86;&#x89E3;&#x5BA2;&#x670D;&#x5DE5;&#x4F5C;&#x6982;&#x51B5;</li>
+<li>&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;
+&#x4F01;&#x4E1A;&#x901A;&#x8FC7;&#x3010;&#x8BBE;&#x7F6E;-&#x8BBF;&#x5BA2;&#x62A5;&#x8868;&#x8FDB;&#x5165;&#x754C;&#x9762;&#x3011;</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/12406336-d8e6b55c3918a5bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x4E0D;&#x540C;&#x4E8B;&#x4EF6;&#x4E0D;&#x540C;&#x6761;&#x4EF6;&#x4E0B;&#x7684;&#x8BBF;&#x95EE;&#x6570;&#x91CF;
+&#x5728;&#x754C;&#x9762;&#x4E2D;&#x6240;&#x6709;&#x4E0B;&#x62C9;&#x9009;&#x9879;&#x6846;&#xFF08;&#x56FE;&#x4E2D;&#x7EA2;&#x8272;&#x533A;&#x57DF;&#xFF09;&#x5747;&#x53EF;&#x4EE5;&#x81EA;&#x4E3B;&#x9009;&#x62E9;&#x663E;&#x793A;&#x6761;&#x4EF6;&#xFF0C;&#x65B9;&#x4FBF;&#x4F01;&#x4E1A;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;&#x3002;</p>
+<p>&#x4F1A;&#x8BDD;&#x62A5;&#x8868;&#x529F;&#x80FD;
+<a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> &#x53EF;&#x4EE5;&#x4E3A;&#x4F01;&#x4E1A;&#x63D0;&#x4F9B;&#x4F1A;&#x8BDD;&#x62A5;&#x8868;&#xFF0C;&#x65B9;&#x4FBF;&#x4F01;&#x4E1A;&#x638C;&#x63E1;&#x5EA7;&#x5E2D;&#x5BA2;&#x670D;&#x4E0E;&#x8BBF;&#x5BA2;&#x7684;&#x4F1A;&#x8BDD;&#x3002;
+&#x901A;&#x8FC7;&#x3010;&#x8BBE;&#x7F6E;-&#x4F1A;&#x8BDD;&#x62A5;&#x8868;&#x3011;&#x8FDB;&#x5165;&#x3002;
+&#x5728;&#x4F1A;&#x8BDD;&#x62A5;&#x8868;&#x4E2D;&#x53EF;&#x4EE5;&#x770B;&#x5230;</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/12406336-b74609eb38e997e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>&#x5728;&#x4F1A;&#x8BDD;&#x754C;&#x9762;&#x80FD;&#x6E05;&#x9664;&#x7684;&#x4E86;&#x89E3;&#x5EA7;&#x5E2D;&#x548C;&#x8BBF;&#x5BA2;&#x7684;&#x4EA4;&#x6D41;&#xFF0C;&#x8FD9;&#x5BF9;&#x8BC4;&#x4EF7;&#x5EA7;&#x5E2D;&#x6709;&#x5F88;&#x5927;&#x5E2E;&#x52A9;&#xFF0C;&#x4E5F;&#x80FD;&#x9488;&#x5BF9;&#x8BBF;&#x5BA2;&#x8FDB;&#x884C;&#x4E0B;&#x4E00;&#x6B65;&#x5206;&#x7C7B;&#x3002;</p>
+<p>&#x5EA7;&#x5E2D;&#x62A5;&#x8868;</p>
+<p>&#x5BF9;&#x4E8E;&#x7BA1;&#x7406;&#x8005;&#x800C;&#x8A00;&#xFF0C;&#x4E86;&#x89E3;&#x5BA2;&#x670D;&#x7684;&#x5DE5;&#x4F5C;&#x3001;&#x638C;&#x63E1;&#x5173;&#x952E;&#x4FE1;&#x606F;&#x3001;&#x5206;&#x6790;&#x6570;&#x636E;&#x6307;&#x6807;&#xFF0C;&#x975E;&#x5E38;&#x91CD;&#x8981;&#xFF0C;&#x7BA1;&#x7406;&#x8005;&#x901A;&#x8FC7;&#x76D1;&#x63A7;&#x4E0E;&#x5206;&#x6790;&#xFF0C;&#x4E86;&#x89E3;&#x4E1A;&#x52A1;&#x73B0;&#x72B6;&#xFF0C;&#x5206;&#x6790;&#x95EE;&#x9898;&#xFF0C;&#x4E0D;&#x65AD;&#x4F18;&#x5316;&#x5BA2;&#x670D;&#x5DE5;&#x4F5C;&#x3002;</p>
+<p>&#x6BCF;&#x7EC4;&#x6570;&#x636E;&#x5747;&#x5DF2;&#x6570;&#x636E;&#x56FE;&#x7684;&#x65B9;&#x5F0F;&#x663E;&#x793A;&#x7ED9;&#x7BA1;&#x7406;&#x8005;&#xFF0C;&#x65B9;&#x4FBF;&#x7BA1;&#x7406;&#x8005;&#x67E5;&#x770B;&#x6570;&#x636E;&#x5F62;&#x5F0F;&#x3002;&#x5168;&#x90E8;&#x5EA7;&#x5E2D;&#x7684;&#x56FE;&#x8868;&#x529F;&#x80FD;&#x76F8;&#x4F3C;&#x5982;&#x4E0B;&#x3002;</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/12406336-528c758a40c4eb92.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>&#x5355;&#x4E2A;&#x5EA7;&#x5E2D;&#x56FE;&#x8868;&#x5177;&#x4F53;&#x529F;&#x80FD;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/12406336-432464e338e8eb03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>&#x7535;&#x8BDD;&#x62A5;&#x8868;</p>
+<p>&#x67E5;&#x770B;&#x76EE;&#x524D;&#x5EA7;&#x5E2D;&#x548C;&#x8BBF;&#x5BA2;&#x7684;&#x7535;&#x8BDD;&#x8BB0;&#x5F55;&#x3002;</p>
 <footer class="page-footer"><span class="copyright">Copyright &#xA9; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> 2018 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2018-07-19 15:41:25
+2018-07-09 16:35:27
 </span></footer>
                                 
                                 </section>
@@ -1063,12 +1081,12 @@
 
             
                 
-                <a href="Message-integration.html" class="navigation navigation-prev " aria-label="Previous page: 短信集成">
+                <a href="DASHBOAD.html" class="navigation navigation-prev " aria-label="Previous page: DASHBOAD">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Apple-push-integration.html" class="navigation navigation-next " aria-label="Next page: 苹果推送集成">
+                <a href="../part2/" class="navigation navigation-next " aria-label="Next page: 进阶篇">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1079,7 +1097,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"电话集成","level":"1.3.12","depth":2,"next":{"title":"苹果推送集成","level":"1.3.13","depth":2,"path":"part1/Apple-push-integration.md","ref":"part1/Apple-push-integration.md","articles":[]},"previous":{"title":"短信集成","level":"1.3.11","depth":2,"path":"part1/Message-integration.md","ref":"part1/Message-integration.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","-highlight","-livereload","search-plus","prism","prism-themes","advanced-emoji","include-codeblock","ace","emphasize","katex","splitter","mermaid-gb3","tbfed-pagefooter","sectionx","local-video","github-edit","graph","chart","favicon","ppmessage","livereload"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © PPMESSAGE 2018","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"emphasize":{},"ace":{},"ppmessage":{"app_uuid":"a600998e-efff-11e5-9d9f-02287b8c0ebf","ppmessage_url":"https://ppmessage.cn/ppcom/assets/pp-library.min.js"},"splitter":{},"graph":{},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"sectionx":{},"mermaid-gb3":{},"github-edit":{"repo":"PPMESSAGE/chinese-manual","branch":"master"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"prism-themes":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"Guijin Ding","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PPMESSAGE 使用与开发手册","language":"zh-hans","links":{"sidebar":{"主页":"https://ppmessage.cn"}},"gitbook":"*","description":" PPMESSAGE 使用与开发手册 "},"file":{"path":"part1/Telephone-integration.md","mtime":"2018-07-19T07:41:25.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-11T02:54:45.228Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"报表","level":"1.3.18","depth":2,"next":{"title":"进阶篇","level":"1.4","depth":1,"path":"part2/README.md","ref":"part2/README.md","articles":[{"title":"定制字段","level":"1.4.1","depth":2,"path":"part2/ppconsole/README.md","ref":"part2/ppconsole/README.md","articles":[{"title":"访客字段","level":"1.4.1.1","depth":3,"path":"part2/ppconsole/sign-up.md","ref":"part2/ppconsole/sign-up.md","articles":[]},{"title":"公司字段","level":"1.4.1.2","depth":3,"path":"part2/ppconsole/create-service-team.md","ref":"part2/ppconsole/create-service-team.md","articles":[]},{"title":"工单字段","level":"1.4.1.3","depth":3,"path":"part2/ppconsole/arrange-team-member.md","ref":"part2/ppconsole/arrange-team-member.md","articles":[]}]},{"title":"定制流程","level":"1.4.2","depth":2,"path":"part2/ppkefu/README.md","ref":"part2/ppkefu/README.md","articles":[{"title":"网页消息流程","level":"1.4.2.1","depth":3,"path":"part2/ppkefu/download.md","ref":"part2/ppkefu/download.md","articles":[]},{"title":"移动消息流程","level":"1.4.2.2","depth":3,"path":"part2/ppkefu/sign-in.md","ref":"part2/ppkefu/sign-in.md","articles":[]},{"title":"微信消息流程","level":"1.4.2.3","depth":3,"path":"part2/ppkefu/conversations.md","ref":"part2/ppkefu/conversations.md","articles":[]},{"title":"邮件消息流程","level":"1.4.2.4","depth":3,"path":"part2/ppkefu/contacts.md","ref":"part2/ppkefu/contacts.md","articles":[]},{"title":"短信消息流程","level":"1.4.2.5","depth":3,"path":"part2/ppkefu/contacts1.md","ref":"part2/ppkefu/contacts1.md","articles":[]},{"title":"事件消息流程","level":"1.4.2.6","depth":3,"path":"part2/ppkefu/contacts2.md","ref":"part2/ppkefu/contacts2.md","articles":[]},{"title":"自动定时流程","level":"1.4.2.7","depth":3,"path":"part2/ppkefu/contacts3.md","ref":"part2/ppkefu/contacts3.md","articles":[]},{"title":"工单流程","level":"1.4.2.8","depth":3,"path":"part2/ppkefu/contacts4.md","ref":"part2/ppkefu/contacts4.md","articles":[]}]}]},"previous":{"title":"DASHBOAD","level":"1.3.17","depth":2,"path":"part1/DASHBOAD.md","ref":"part1/DASHBOAD.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","-highlight","-livereload","search-plus","prism","prism-themes","advanced-emoji","include-codeblock","ace","emphasize","katex","splitter","mermaid-gb3","tbfed-pagefooter","sectionx","local-video","github-edit","graph","chart","favicon","ppmessage","livereload"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © PPMESSAGE 2018","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"emphasize":{},"ace":{},"ppmessage":{"app_uuid":"a600998e-efff-11e5-9d9f-02287b8c0ebf","ppmessage_url":"https://ppmessage.cn/ppcom/assets/pp-library.min.js"},"splitter":{},"graph":{},"katex":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"sectionx":{},"mermaid-gb3":{},"github-edit":{"repo":"PPMESSAGE/chinese-manual","branch":"master"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"prism-themes":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"Guijin Ding","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PPMESSAGE 使用与开发手册","language":"zh-hans","links":{"sidebar":{"主页":"https://ppmessage.cn"}},"gitbook":"*","description":" PPMESSAGE 使用与开发手册 "},"file":{"path":"part1/The-report.md","mtime":"2018-07-09T08:35:27.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-11T02:54:45.228Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
