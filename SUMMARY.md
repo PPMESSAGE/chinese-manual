@@ -5,7 +5,7 @@
 
 * [体验篇](part1/README.md)
    * [与客服对话](part1/chat-with-ppmessage.md)
-
+   * [座席操作界面简介](part1/customer-operation-introduction.md)
 * [使用篇](part1/EMPLOY.md)
    * [个人设置](part1/personal-settings.md)
    * [注册团队](part1/register-team.md)
