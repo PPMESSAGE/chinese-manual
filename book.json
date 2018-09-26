@@ -23,11 +23,6 @@
             "ppmessage_url": "https://ppmessage.cn/ppcom/assets/pp-library.min.js"
         },
         
-        "github-edit": {
-            "repo": "PPMESSAGE/chinese-manual",
-            "branch": "master"
-        },
-        
         "theme-default": {
             "showLevel": true
         },
