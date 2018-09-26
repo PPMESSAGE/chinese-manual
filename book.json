@@ -15,7 +15,7 @@
                "search-plus", "prism", "prism-themes", "advanced-emoji",
                "include-codeblock", "ace", "emphasize", "katex", "splitter",
                "mermaid-gb3", "tbfed-pagefooter", "sectionx", "local-video",
-               "github-edit", "graph", "chart", "favicon", "ppmessage"],
+               "graph", "chart", "favicon", "ppmessage"],
 
     "pluginsConfig": {
         "ppmessage": {
