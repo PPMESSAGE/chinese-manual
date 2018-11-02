@@ -1,0 +1,1705 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>工单系统 · PPMESSAGE 使用与开发手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Guijin Ding">
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="cloude-call-center.html" />
+    
+    
+    <link rel="prev" href="marketing-autommation-system.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://ppmessage.cn" target="_blank" class="custom-link">主页</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    什么是PPMessage?
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../what-can-ppmessage-do.html">
+            
+                <a href="../what-can-ppmessage-do.html">
+            
+                    
+                        <b>1.1.1.</b>
+                    
+                    可以用PPMessage做什么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../who-should-use-ppmessage.html">
+            
+                <a href="../who-should-use-ppmessage.html">
+            
+                    
+                        <b>1.1.2.</b>
+                    
+                    谁应该使用PPMessage？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../unique-features.html">
+            
+                <a href="../unique-features.html">
+            
+                    
+                        <b>1.1.3.</b>
+                    
+                    PPMessage有哪些独特的功能？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    PPMessage产品简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="intelligent-customers-service-system.html">
+            
+                <a href="intelligent-customers-service-system.html">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    智能客服系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="marketing-autommation-system.html">
+            
+                <a href="marketing-autommation-system.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    营销自动化系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.3" data-path="ticket-system.html">
+            
+                <a href="ticket-system.html">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    工单系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="cloude-call-center.html">
+            
+                <a href="cloude-call-center.html">
+            
+                    
+                        <b>2.1.4.</b>
+                    
+                    云呼叫中心
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="intelligent-sales-robot.html">
+            
+                <a href="intelligent-sales-robot.html">
+            
+                    
+                        <b>2.1.5.</b>
+                    
+                    智能销售机器人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="intelligent-speech-robot.html">
+            
+                <a href="intelligent-speech-robot.html">
+            
+                    
+                        <b>2.1.6.</b>
+                    
+                    智能语音机器人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="intelligent-customer-service-robot.html">
+            
+                <a href="intelligent-customer-service-robot.html">
+            
+                    
+                        <b>2.1.7.</b>
+                    
+                    智能客服机器人
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../part2/EMPLOY.html">
+            
+                <a href="../part2/EMPLOY.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    PPMessage安装指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../part2/installation.html">
+            
+                <a href="../part2/installation.html">
+            
+                    
+                        <b>3.1.1.</b>
+                    
+                    在网站上安装PPMessage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../part2/register-team.html">
+            
+                <a href="../part2/register-team.html">
+            
+                    
+                        <b>3.1.2.</b>
+                    
+                    为微信公众号提供在线客服
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../part3/configuration-guide.html">
+            
+                <a href="../part3/configuration-guide.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    PPMessage配置指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../part3/">
+            
+                <a href="../part3/">
+            
+                    
+                        <b>4.1.1.</b>
+                    
+                    自定义PPMessage聊天组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../part3/ppconsole/set-team-information.html">
+            
+                <a href="../part3/ppconsole/set-team-information.html">
+            
+                    
+                        <b>4.1.2.</b>
+                    
+                    设置聊天组件上显示的团队信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../part3/ppconsole/component-advanced-customization-methods.html">
+            
+                <a href="../part3/ppconsole/component-advanced-customization-methods.html">
+            
+                    
+                        <b>4.1.3.</b>
+                    
+                    聊天组件的高级定制方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../part3/ppconsole/configure-customer-service-team.html">
+            
+                <a href="../part3/ppconsole/configure-customer-service-team.html">
+            
+                    
+                        <b>4.1.4.</b>
+                    
+                    配置客服团队
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../part3/ppconsole/configure-customer-information.html">
+            
+                <a href="../part3/ppconsole/configure-customer-information.html">
+            
+                    
+                        <b>4.1.5.</b>
+                    
+                    配置客户信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../part3/ppconsole/offline-message.html">
+            
+                <a href="../part3/ppconsole/offline-message.html">
+            
+                    
+                        <b>4.1.6.</b>
+                    
+                    设置通过微信接收离线消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../part3/ppconsole/build-in-process.html">
+            
+                <a href="../part3/ppconsole/build-in-process.html">
+            
+                    
+                        <b>4.1.7.</b>
+                    
+                    配置内置流程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.7.1" >
+            
+                <span>
+            
+                    
+                        <b>4.1.7.1.</b>
+                    
+                    客服分配
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.2" >
+            
+                <span>
+            
+                    
+                        <b>4.1.7.2.</b>
+                    
+                    主动邀请消息
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.3" >
+            
+                <span>
+            
+                    
+                        <b>4.1.7.3.</b>
+                    
+                    非工作时间离线消息
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.4" >
+            
+                <span>
+            
+                    
+                        <b>4.1.7.4.</b>
+                    
+                    配置微信公众号流程
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../part3/ppconsole/configure-third-party-services.html">
+            
+                <a href="../part3/ppconsole/configure-third-party-services.html">
+            
+                    
+                        <b>4.1.8.</b>
+                    
+                    配置第三方服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../part4/">
+            
+                <a href="../part4/">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    PPMessage操作指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../part4/component-operational.html">
+            
+                <a href="../part4/component-operational.html">
+            
+                    
+                        <b>5.1.1.</b>
+                    
+                    聊天组件操作指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="../part4/voice-prompt.html">
+            
+                <a href="../part4/voice-prompt.html">
+            
+                    
+                        <b>5.1.1.1.</b>
+                    
+                    键入指示和声音提示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2" data-path="../part4/team-information.html">
+            
+                <a href="../part4/team-information.html">
+            
+                    
+                        <b>5.1.1.2.</b>
+                    
+                    团队资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../part4/background-operation-guide.html">
+            
+                <a href="../part4/background-operation-guide.html">
+            
+                    
+                        <b>5.1.2.</b>
+                    
+                    后台操作指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1" data-path="../part4/introduction-to-information-interface.html">
+            
+                <a href="../part4/introduction-to-information-interface.html">
+            
+                    
+                        <b>5.1.2.1.</b>
+                    
+                    信息界面简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1.1" data-path="../part4/visitor-session-list.html">
+            
+                <a href="../part4/visitor-session-list.html">
+            
+                    
+                        <b>5.1.2.1.1.</b>
+                    
+                    访客会话列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.1.2" data-path="../part4/session-area.html">
+            
+                <a href="../part4/session-area.html">
+            
+                    
+                        <b>5.1.2.1.2.</b>
+                    
+                    会话区域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.1.3" data-path="../part4/customer-information.html">
+            
+                <a href="../part4/customer-information.html">
+            
+                    
+                        <b>5.1.2.1.3.</b>
+                    
+                    客户信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.1.4" data-path="../part4/introduction-to-session-interface.html">
+            
+                <a href="../part4/introduction-to-session-interface.html">
+            
+                    
+                        <b>5.1.2.1.4.</b>
+                    
+                    会话界面简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2" data-path="../part4/introduction-to-visitor-interface.html">
+            
+                <a href="../part4/introduction-to-visitor-interface.html">
+            
+                    
+                        <b>5.1.2.2.</b>
+                    
+                    访客界面简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.2.1" data-path="../part4/filter-conditions.html">
+            
+                <a href="../part4/filter-conditions.html">
+            
+                    
+                        <b>5.1.2.2.1.</b>
+                    
+                    过滤条件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2.2" data-path="../part4/customer-segmentation.html">
+            
+                <a href="../part4/customer-segmentation.html">
+            
+                    
+                        <b>5.1.2.2.2.</b>
+                    
+                    客户细分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2.3" data-path="../part4/create-niche.html">
+            
+                <a href="../part4/create-niche.html">
+            
+                    
+                        <b>5.1.2.2.3.</b>
+                    
+                    创建细分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2.4" data-path="../part4/adjust-the-visitor-field-displed.html">
+            
+                <a href="../part4/adjust-the-visitor-field-displed.html">
+            
+                    
+                        <b>5.1.2.2.4.</b>
+                    
+                    调整显示的访客字段
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../part5/READE.html">
+            
+                <a href="../part5/READE.html">
+            
+                    
+                        <b>6.1.</b>
+                    
+                    PPMessage流程管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../part5/introduction-to-process-configuration-interface.html">
+            
+                <a href="../part5/introduction-to-process-configuration-interface.html">
+            
+                    
+                        <b>6.1.1.</b>
+                    
+                    流程配置界面简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../part5/create-a-process.html">
+            
+                <a href="../part5/create-a-process.html">
+            
+                    
+                        <b>6.1.2.</b>
+                    
+                    创建流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../part5/understand-the-variables-in-the-process.html">
+            
+                <a href="../part5/understand-the-variables-in-the-process.html">
+            
+                    
+                        <b>6.1.3.</b>
+                    
+                    理解流程中的变量
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.3.1" data-path="../part5/standard-field-variable.html">
+            
+                <a href="../part5/standard-field-variable.html">
+            
+                    
+                        <b>6.1.3.1.</b>
+                    
+                    系统内置字段变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3.2" data-path="../part5/custom-field-variables.html">
+            
+                <a href="../part5/custom-field-variables.html">
+            
+                    
+                        <b>6.1.3.2.</b>
+                    
+                    定制字段变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3.3" data-path="../part5/event-field-variable.html">
+            
+                <a href="../part5/event-field-variable.html">
+            
+                    
+                        <b>6.1.3.3.</b>
+                    
+                    事件字段变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3.4" data-path="../part5/reference-a-variable-in-the-text.html">
+            
+                <a href="../part5/reference-a-variable-in-the-text.html">
+            
+                    
+                        <b>6.1.3.4.</b>
+                    
+                    在文本中引用变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3.5" data-path="../part5/reference-a-variable-in-an-expression.html">
+            
+                <a href="../part5/reference-a-variable-in-an-expression.html">
+            
+                    
+                        <b>6.1.3.5.</b>
+                    
+                    在表达式中引用变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="../part5/understand-the-nodes-in-the-process.html">
+            
+                <a href="../part5/understand-the-nodes-in-the-process.html">
+            
+                    
+                        <b>6.1.4.</b>
+                    
+                    理解流程中的节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" data-path="../part5/page-message-flow.html">
+            
+                <a href="../part5/page-message-flow.html">
+            
+                    
+                        <b>6.1.5.</b>
+                    
+                    网页消息流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6" data-path="../part5/mobile-message-flow.html">
+            
+                <a href="../part5/mobile-message-flow.html">
+            
+                    
+                        <b>6.1.6.</b>
+                    
+                    移动消息流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.7" >
+            
+                <span>
+            
+                    
+                        <b>6.1.7.</b>
+                    
+                    微信消息流程(公众号)
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.8" data-path="../part5/event-process.html">
+            
+                <a href="../part5/event-process.html">
+            
+                    
+                        <b>6.1.8.</b>
+                    
+                    事件消息流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.9" >
+            
+                <span>
+            
+                    
+                        <b>6.1.9.</b>
+                    
+                    自动消息流程
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                        <b>7.1.</b>
+                    
+                    PPMessage统计报表简介
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" >
+            
+                <span>
+            
+                    
+                        <b>7.1.1.</b>
+                    
+                    访客报表
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" >
+            
+                <span>
+            
+                    
+                        <b>7.1.2.</b>
+                    
+                    会话报表
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" >
+            
+                <span>
+            
+                    
+                        <b>7.1.3.</b>
+                    
+                    座席报表
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../part7/">
+            
+                <a href="../part7/">
+            
+                    
+                        <b>8.1.</b>
+                    
+                    PPMessage高级功能指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" >
+            
+                <span>
+            
+                    
+                        <b>8.1.1.</b>
+                    
+                    工单指南
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1.1" >
+            
+                <span>
+            
+                    
+                        <b>8.1.1.1.</b>
+                    
+                    工单界面简介
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.1.2" >
+            
+                <span>
+            
+                    
+                        <b>8.1.1.2.</b>
+                    
+                    设置工单字段
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.1.3" >
+            
+                <span>
+            
+                    
+                        <b>8.1.1.3.</b>
+                    
+                    设置工单分类
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.1.4" >
+            
+                <span>
+            
+                    
+                        <b>8.1.1.4.</b>
+                    
+                    设置工单流程
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" >
+            
+                <span>
+            
+                    
+                        <b>8.1.2.</b>
+                    
+                    客服机器人指南
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.2.1" >
+            
+                <span>
+            
+                    
+                        <b>8.1.2.1.</b>
+                    
+                    设置客服机器人
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2.2" >
+            
+                <span>
+            
+                    
+                        <b>8.1.2.2.</b>
+                    
+                    设置智能回答
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2.3" >
+            
+                <span>
+            
+                    
+                        <b>8.1.2.3.</b>
+                    
+                    设置客服机器人流程
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" >
+            
+                <span>
+            
+                    
+                        <b>8.1.3.</b>
+                    
+                    云呼叫中心指南
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../part8/">
+            
+                <a href="../part8/">
+            
+                    
+                        <b>8.2.</b>
+                    
+                    PPMessage词汇表
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.2.1" data-path="../part8/A-C.html">
+            
+                <a href="../part8/A-C.html">
+            
+                    
+                        <b>8.2.1.</b>
+                    
+                    A~C
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.2" data-path="../part8/D-F.html">
+            
+                <a href="../part8/D-F.html">
+            
+                    
+                        <b>8.2.2.</b>
+                    
+                    D~F
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.3" data-path="../part8/G-I.html">
+            
+                <a href="../part8/G-I.html">
+            
+                    
+                        <b>8.2.3.</b>
+                    
+                    G~I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.4" data-path="../part8/J-L.html">
+            
+                <a href="../part8/J-L.html">
+            
+                    
+                        <b>8.2.4.</b>
+                    
+                    J~L
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.5" data-path="../part8/M-O.html">
+            
+                <a href="../part8/M-O.html">
+            
+                    
+                        <b>8.2.5.</b>
+                    
+                    M~O
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.6" data-path="../part8/P-R.html">
+            
+                <a href="../part8/P-R.html">
+            
+                    
+                        <b>8.2.6.</b>
+                    
+                    P~R
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.7" data-path="../part8/S-U.html">
+            
+                <a href="../part8/S-U.html">
+            
+                    
+                        <b>8.2.7.</b>
+                    
+                    S~U
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.8" data-path="../part8/V-X.html">
+            
+                <a href="../part8/V-X.html">
+            
+                    
+                        <b>8.2.8.</b>
+                    
+                    V~X
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >工单系统</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5DE5;&#x5355;&#x7CFB;&#x7EDF;">&#x5DE5;&#x5355;&#x7CFB;&#x7EDF;</h1>
+<p><a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMessage</a>&#x5DE5;&#x5355;&#x7CFB;&#x7EDF;&#x7A81;&#x7834;&#x4E86;&#x4F20;&#x7EDF;&#x5DE5;&#x5355;&#x9650;&#x5236;&#xFF0C;&#x53EF;&#x4EE5;&#x6253;&#x901A;&#x552E;&#x524D;&#x552E;&#x540E;&#x73AF;&#x8282;&#xFF0C;&#x65B9;&#x4FBF;&#x4F01;&#x4E1A;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x5DE5;&#x5355;&#xFF0C;&#x5DE5;&#x5355;&#x5206;&#x914D;&#x3001;&#x8F6C;&#x6D3E;&#x3001;&#x53D8;&#x66F4;&#x3001;&#x63D0;&#x9192;&#x3001;&#x4E1A;&#x52A1;&#x6D41;&#x548C;SLA&#x968F;&#x5FC3;&#x5B9A;&#x5236;&#x3002;</p>
+<ul>
+<li>&#x57FA;&#x4E8E;<a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMessage</a>&#x4E1A;&#x754C;&#x552F;&#x4E00;&#x7684;&#x6D41;&#x7A0B;&#x5B9A;&#x5236;&#x529F;&#x80FD;&#xFF0C;&#x5C06;&#x5546;&#x673A;&#x83B7;&#x53D6;&#x8F6C;&#x5316;&#x548C;&#x5BA2;&#x6237;&#x652F;&#x6301;&#x5B8C;&#x7F8E;&#x7ED3;&#x5408;&#x8D77;&#x6765;&#x3002;</li>
+<li>&#x6253;&#x901A;&#x552E;&#x524D;&#x552E;&#x540E;&#x73AF;&#x8282;&#xFF0C;&#x6839;&#x636E;&#x7F51;&#x9875;&#x3001;&#x90AE;&#x4EF6;&#x3001;&#x7535;&#x8BDD;&#x548C;&#x793E;&#x4EA4;&#x5A92;&#x4F53;&#x7B49;&#x5404;&#x79CD;&#x6E20;&#x9053;&#x7684;&#x5BA2;&#x6237;&#x54A8;&#x8BE2;&#x6D88;&#x606F;&#x521B;&#x5EFA;&#x5DE5;&#x5355;&#xFF0C;&#x5DE5;&#x5355;&#x53EF;&#x81EA;&#x52A8;&#x5206;&#x914D;&#x3001;&#x8F6C;&#x6D3E;&#x3001;&#x53D8;&#x66F4;&#x3001;&#x63D0;&#x9192;&#x548C;&#x5F52;&#x6863;&#xFF0C;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;&#x968F;&#x5FC3;&#x5B9A;&#x5236;&#x3002;</li>
+<li>&#x591A;&#x9879;SLA&#x76D1;&#x63A7;&#xFF0C;&#x4FDD;&#x969C;&#x91CD;&#x8981;&#x7684;&#x4E8B;&#x60C5;&#x4F18;&#x5148;&#x5F97;&#x5230;&#x5904;&#x7406;&#xFF0C;&#x63D0;&#x9AD8;&#x4F01;&#x4E1A;&#x8FD0;&#x8425;&#x8D28;&#x91CF;&#xFF0C;&#x6700;&#x5927;&#x7A0B;&#x5EA6;&#x7684;&#x63D0;&#x9AD8;&#x5BA2;&#x6237;&#x6EE1;&#x610F;&#x5EA6;&#x3002;</li>
+<li>&#x5168;&#x5F00;&#x653E;&#x63A5;&#x53E3;&#x652F;&#x6301;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0E;&#x5BA2;&#x6237;&#x73B0;&#x6709;&#x7684;CRM&#x6216;&#x5176;&#x4ED6;&#x529E;&#x516C;&#x7CFB;&#x7EDF;&#x65E0;&#x7F1D;&#x96C6;&#x6210;&#x3002;</li>
+<li>&#x5B8C;&#x6574;&#x5F52;&#x6863;&#xFF0C;&#x5FEB;&#x901F;&#x68C0;&#x7D22;&#x548C;&#x5206;&#x7C7B;&#xFF0C;&#x5F3A;&#x529B;&#x652F;&#x6301;&#x4F01;&#x4E1A;&#x51B3;&#x7B56;&#x3002; </li>
+</ul>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; <a href="../GLOSSARY.html#ppmessage" class="glossary-term" title="PLUG &amp; PLAY MESSAGE&#xFF0C;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#xFF0C;&#x5FAE;&#x4FE1;&#x5BA2;&#x670D;&#xFF0C;&#x667A;&#x80FD;&#x6D88;&#x606F;&#x4EA4;&#x4E92;&#x7CFB;&#x7EDF;&#x3002;">PPMESSAGE</a> 2018 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-10-23 11:06:39
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="marketing-autommation-system.html" class="navigation navigation-prev " aria-label="Previous page: 营销自动化系统">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="cloude-call-center.html" class="navigation navigation-next " aria-label="Next page: 云呼叫中心">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"工单系统","level":"2.1.3","depth":2,"next":{"title":"云呼叫中心","level":"2.1.4","depth":2,"path":"part1/cloude-call-center.md","ref":"part1/cloude-call-center.md","articles":[]},"previous":{"title":"营销自动化系统","level":"2.1.2","depth":2,"path":"part1/marketing-autommation-system.md","ref":"part1/marketing-autommation-system.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","-highlight","-livereload","search-plus","prism","prism-themes","advanced-emoji","include-codeblock","ace","emphasize","katex","splitter","mermaid-gb3","tbfed-pagefooter","sectionx","local-video","graph","chart","favicon","ppmessage","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © PPMESSAGE 2018","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"emphasize":{},"ace":{},"ppmessage":{"app_uuid":"a600998e-efff-11e5-9d9f-02287b8c0ebf","ppmessage_url":"https://ppmessage.cn/ppcom/assets/pp-library.min.js"},"splitter":{},"graph":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"mermaid-gb3":{},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"prism-themes":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"Guijin Ding","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"PPMESSAGE 使用与开发手册","language":"zh-hans","links":{"sidebar":{"主页":"https://ppmessage.cn"}},"gitbook":"*","description":" PPMESSAGE 使用与开发手册 "},"file":{"path":"part1/ticket-system.md","mtime":"2018-10-23T03:06:39.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-02T04:09:35.811Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ppmessage/load-ppmessage.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
